@@ -6,3 +6,6 @@ eureka:
       default-zone: ${EUREKA_URI:http://localhost:8761/eureka}
   instance:
     hostname: localhost
+ 
+app:
+  my-prop: my-prop-value
